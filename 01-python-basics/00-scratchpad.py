@@ -56,3 +56,53 @@
 
 # print('Hi ' + name + '! You are ' + str(age) + ' years old.')
 # print(f'Hi {name}! You are {age} years old.')
+
+#Immutability: Strings in Python are IMMUTABLE - They cannot be changed
+
+# selfish = '01234567'
+
+# selfish[0] = '8' This does not work as strings are immutable. Can only completely remove the value '01234567' with something new
+
+# selfish = selfish + 8 would print '12345678'
+
+#Built-in Functions and Methods 
+# https://docs.python.org/3/library/functions.html
+
+# print(len('helloooooooooo')) # The length of the string is 14 characters long. len() does not start at 0, it starts at 1
+
+# greet = "helloooooooooo"
+# print(greet[:])
+# print(greet[0:len(greet)]) # = print(greet[0:14])
+
+#Python String Methods - Usually have a .method in front of them (.format, for example)
+# https://www.w3schools.com/python/python_ref_string.asp
+
+# quote = "to be or not to be..."
+
+# quote.upper()
+# print(quote)
+# print(quote.upper())
+# print(quote.capitalize())
+# print(quote.title())
+# print(quote.find("be"))
+# print(quote.replace("be", "me"))
+
+# print(quote)
+
+#booleans - only true or false. 1 or 0. on or off.
+
+# name = "Walter"
+# is_cool = False
+
+# is_cool = True
+
+# if is_cool == True:
+#     print(f"{name} is cool.")
+# else:
+#     print(f"{name} is not cool.")
+
+# bool(1)
+# print(bool(1))
+
+# bool(0)
+# print(bool(0))
