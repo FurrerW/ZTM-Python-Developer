@@ -106,3 +106,36 @@
 
 # bool(0)
 # print(bool(0))
+
+# Lists
+
+# li = ['a', 'b', 'c']
+# print(li[0], li[1])
+
+# Data Structure - Way for us to organize information and data into a folder/cupboard/box, so that they can be used with different pros/cons.
+
+# amazon_cart = ["Notebooks", "Sunglasses"]
+
+# for item in amazon_cart:
+#     print(f"Alexa, add {item} to my shopping cart.")
+
+# List Slicing
+
+# amazon_cart = [
+#     "Notebooks",
+#     "Sunglasses",
+#     "Toys",
+#     "Grapes"
+# ]
+
+# amazon_cart[0] = "Laptop"
+# new_cart = amazon_cart[:]
+# new_cart[0] = "gum"
+# print(new_cart)
+# print(amazon_cart)
+
+# Strings are immutable, right? They can't be changed.
+# Lists are mutable. 
+
+
+
